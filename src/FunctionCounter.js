@@ -8,8 +8,10 @@ const [count, UpdateCount] = useState({number:0});
         <div >
             <h1> Function counter : {count.number} </h1>
             <hr />
-            <button onClick = {() => UpdateCount({number: count.number + 1})}> Increase Count</button>
-            <button onClick = {() =>UpdateCount({number: count.number -1 })}> Decrease Count</button>
+            <button onClick = {() => UpdateCount({number: count.number + 1})}> 
+            Increase Count</button>
+            <button onClick = {() =>UpdateCount({number: count.number -1 })}> 
+            Decrease Count</button>
         </div>
     )
 }
