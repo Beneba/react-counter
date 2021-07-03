@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 
 const FunctionCounter = () => {
-const [count, UpdateCount] = useState({number:10});
+const [count, UpdateCount] = useState({number:14});
 
     return (
         <div >
@@ -10,7 +10,7 @@ const [count, UpdateCount] = useState({number:10});
             <hr />
             <button onClick = {() => UpdateCount({number: count.number + 1})}> 
             Increase Count</button>
-            <button onClick = {() =>UpdateCount({number: count.number -1 })}> 
+            <button onClick = {() => UpdateCount({number: count.number -1 })}> 
             Decrease Count</button>
         </div>
     )
