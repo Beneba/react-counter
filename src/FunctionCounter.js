@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 
 const FunctionCounter = () => {
-const [count, UpdateCount] = useState({number:0});
+const [count, UpdateCount] = useState({number:10});
 
     return (
         <div >
